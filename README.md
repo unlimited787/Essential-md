@@ -26,7 +26,7 @@ apt-get update -y && apt-get upgrade -y
 ```
 
 ```bash
-pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn
+pkg install -y git nodejs && pkg install yarn
 ```
 
 ```bash
@@ -69,4 +69,3 @@ DIGITA QUESTI COMANDI:
 ### `—◉ 📝 NOTE 📝`
 - IL BOT E' COMPATIBILE CON WHATSAPP BUSINESS E WHATSAPP NORMALE
 - PER BLOCCARE GLI UTENTI IN PRIVATO ESEGUI IL COMANDO .attiva antiprivato
-- ALL'AVVIO ESEGUI IL COMANDO .attiva restrict DAL NUMERO DEL BOT
