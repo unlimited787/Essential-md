@@ -22,7 +22,6 @@ let info = `
 │🚷 ⭔ ${usedPrefix}k / kick
 │👋 ⭔ ${usedPrefix}1/0 benvenuto
 │🛡️ ⭔ ${usedPrefix}1/0 antilink
-│🔒 ⭔ ${usedPrefix}1/0 antiprivato
 │📢 ⭔ ${usedPrefix}h / hidetag
 │👑 ⭔ ${usedPrefix}p / promuovi @
 │✋ ⭔ ${usedPrefix}r / retrocedi @
