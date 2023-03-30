@@ -1271,15 +1271,15 @@ export async function participantsUpdate({ id, participants, action }) {
                 for (let user of participants) {
                     let pp = './src/avatar_contact.png'
                     try {
-                        pp = await this.profilePictureUrl(user, 'image')
-                    } catch (e) {
-                    } finally {
-                    let apii = await this.getFile(pp)
-                        text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'benvenuto, @user!').replace('@subject', await this.getName(id)).replace('@desc', groupMetadata.desc?.toString() || 'bot') :
+                     return
+} catch (e) {
+}
+                    finally {
+                    let text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'benvenuto, @user!').replace('@subject', await this.getName(id)).replace('@desc', groupMetadata.desc?.toString() || 'bot') :
                               (chat.sBye || this.bye || conn.bye || 'bye bye, @user!')).replace('@user', '@' + user.split('@')[0])
                        
                 
- this.sendFile(id, apii.data, 'pp.jpg', text, null, false, { mentions: [user] }) 
+ this.sendMessage(id, { text, mentions: [user] })
                    }
                 }
             }
