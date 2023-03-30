@@ -19,14 +19,14 @@ let neww = performance.now()
 let speed = neww - old
 let info = `
 ┌──⭓ 𝐄𝐒𝐒𝐄𝐍𝐓𝐈𝐀𝐋 𝐌𝐄𝐍𝐔 
-│🚷 ⭔ ${usedPrefix}k / kick
-│👋 ⭔ ${usedPrefix}1/0 benvenuto
-│🛡️ ⭔ ${usedPrefix}1/0 antilink
-│📢 ⭔ ${usedPrefix}h / hidetag
-│👑 ⭔ ${usedPrefix}p / promuovi @
-│✋ ⭔ ${usedPrefix}r / retrocedi @
-│🤐 ⭔ ${usedPrefix}c / chiuso
-│🗣️ ⭔ ${usedPrefix}a / aperto
+│⭔ ${usedPrefix}k / kick
+│⭔ ${usedPrefix}1/0 benvenuto
+│⭔ ${usedPrefix}1/0 antilink
+│⭔ ${usedPrefix}h / hidetag
+│⭔ ${usedPrefix}p / promuovi @
+│⭔ ${usedPrefix}r / retrocedi @
+│⭔ ${usedPrefix}c / chiuso
+│⭔ ${usedPrefix}a / aperto
 └───────⭓
 `.trim() 
 conn.reply(m.chat, info, m)
